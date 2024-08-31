@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Spoitfy</title>
+  </head>
+
+  <body>
+    <div class="container flex bg-black font">
+      <div class="left">
+        <div class="close">
+          <img class="invert clos" src="assets/noun-close-636011.svg" alt="" />
+        </div>
+        <div class="home m-1 bg-grey rounded p-1 col">
+          <div class="logo"><img src="assets/logo.svg" alt="" /></div>
+          <ul>
+            <li>
+              <img class="cursor" src="assets/home.svg" alt="Home" />
+              <span class="cursor">Home</span>
+            </li>
+            <li>
+              <img class="cursor" src="assets/search.svg" alt="Search" />
+              <span class="cursor">Search</span>
+            </li>
+          </ul>
+        </div>
+        <div class="library m-1 bg-grey rounded p-1 col font">
+          <div class="top">
+            <img class="cursor" src="assets/library.svg" alt="" />
+            <span class="cursor">Your Library</span>
+            <img class="add cursor" src="assets/add.svg" alt="" />
+          </div>
+          <div class="songlist">
+            <ul class="music"></ul>
+          </div>
+          <div class="playlist rounded p-1">
+            <div>Create your first playlist</div>
+            <div>It's easy, we'll help you</div>
+            <div>
+              <button class="playlist-btn cursor">Create playlist</button>
+            </div>
+          </div>
+          <div class="playlist rounded p-1">
+            <div>Let's find some podcasts to follow</div>
+            <div>We'll keep you updated on new episodes</div>
+            <div>
+              <button class="playlist-btn cursor">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+        <div class="bar font-2">
+          <div class="text1">
+            <span class="cursor">Legal</span>
+            <span class="cursor">Safety and Privacy Center</span>
+            <span class="cursor">Privacy Policy</span>
+          </div>
+          <div class="text2">
+            <span class="cursor">About US</span>
+            <span class="cursor">Accessibility</span>
+          </div>
+          <div class="text3"><span class="cursor">Cookies</span></div>
+          <button class="cursor eng">
+            <img src="assets/lang.svg" alt="" />English
+          </button>
+        </div>
+      </div>
+
+      <div class="right font-2">
+        <div class="nav font">
+          <div class="hamburger">
+            <img
+              class="hamburgerimg invert"
+              src="assets/noun-menu-3541632.svg"
+              alt=""
+            />
+          </div>
+          <ul>
+            <li class="cursor col">Sign up</li>
+            <li class="cursor log">Log in</li>
+          </ul>
+        </div>
+        <div class="content font">
+          <div class="heading">
+            <h2 class="cursor">Popular artists</h2>
+            <span class="cursor">show all</span>
+          </div>
+          <div class="grid">
+            <div class="artist">
+              <div class="artist-pic">
+                <img class="img1" src="assets/Artist 2.jpeg" alt="" />
+                <div class="play">
+                  <img src="assets/play.svg" alt="Play" />
+                </div>
+              </div>
+              <div class="artist-name">Pritam</div>
+              <div class="role">Artist</div>
+            </div>
+
+            <div class="artist">
+              <div class="artist-pic">
+                <img class="img1" src="assets/Artist 0.jpeg" alt="" />
+                <div class="play">
+                  <img src="assets/play.svg" alt="Play" />
+                </div>
+              </div>
+              <div class="artist-name">Arijit Singh</div>
+              <div class="role">Artist</div>
+            </div>
+
+            <div class="artist">
+              <div class="artist-pic">
+                <img class="img1" src="assets/Artist 1.jpeg" alt="" />
+                <div class="play">
+                  <img src="assets/play.svg" alt="Play" />
+                </div>
+              </div>
+              <div class="artist-name">Talha Anjum</div>
+              <div class="role">Artist</div>
+            </div>
+
+            <div class="artist">
+              <div class="artist-pic">
+                <img class="img1" src="assets/Artist 3.jpeg" alt="" />
+                <div class="play">
+                  <img src="assets/play.svg" alt="Play" />
+                </div>
+              </div>
+              <div class="artist-name">Atif Aslam</div>
+              <div class="role">Artist</div>
+            </div>
+
+            <div class="artist">
+              <div class="artist-pic">
+                <img class="img1" src="assets/Artist 5.jpeg" alt="" />
+                <div class="play">
+                  <img src="assets/play.svg" alt="Play" />
+                </div>
+              </div>
+              <div class="artist-name">Shubh</div>
+              <div class="role">Artist</div>
+            </div>
+          </div>
+        </div>
+        <div class="heading">
+          <h2 class="cursor">Popular albums</h2>
+          <span class="cursor">show all</span>
+        </div>
+        <div class="grid">
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/jhol.jpeg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="artist-name">Jhol</div>
+            <div class="role">Maanu,Annural Khaild</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img
+                class="img2"
+                src="assets/rockstar withot a guitar.jpeg"
+                alt=""
+              />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="artist-name">ROCKSTAR WITHOUT A GUITAR</div>
+            <div class="role">Umair</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/open letter.jpeg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="artist-name">Open Letter</div>
+            <div class="role">Talha Anjum</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/hit me hard & soft.jpeg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="artist-name">Hit Me Hard And Soft</div>
+            <div class="role">Billie Eilish</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/utopia.jpeg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="artist-name">UTOPIA</div>
+            <div class="role">Travis Scott</div>
+          </div>
+        </div>
+        <div class="heading">
+          <h2 class="cursor">Popular radio</h2>
+          <span class="cursor">show all</span>
+        </div>
+        <div class="grid">
+          <div class="artist">
+            <div class="artist-pic">
+              <img
+                class="img2"
+                src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4YRxDV8wJFPHPTeXepOstw/en-GB"
+                alt=""
+              />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+
+            <div class="role">With Neha Kakkar, Pritam, KK and more</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img
+                class="img2"
+                src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/5r3wPya2PpeTTsXsGhQU8O/en-GB"
+                alt=""
+              />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="role">With AP Dhillon, Gurinder Gill and more</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img
+                class="img2"
+                src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/69xcFpmqTOmFNOL08Bxyci/en-GB"
+                alt=""
+              />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="role">
+              With Talhah Yunus, Umair, Young Stunners and more
+            </div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img
+                class="img2"
+                src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/2oSONSC9zQ4UonDKnLqksx/en-GB"
+                alt=""
+              />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="role">
+              With Ali Zafar, Rahat Fateh Ali Khan, Asim Azhar and more
+            </div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img
+                class="img2"
+                src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/6gIqKYKRmltKfkTnxhMv8V/en-GB"
+                alt=""
+              />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+
+            <div class="role">
+              With Maanu, Shamoon Ismail, Abdul Hannan and more
+            </div>
+          </div>
+        </div>
+        <div class="heading">
+          <h2 class="cursor">Featured Charts</h2>
+          <span class="cursor">show all</span>
+        </div>
+        <div class="grid">
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/6..jpg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+
+            <div class="role">Your weekly update of mostly played...</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/7..jpg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+
+            <div class="role">Your weekly update of mostly played...</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/8..jpg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="role">Your daily update of mostly played...</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/9..jpg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+
+            <div class="role">Your daily update of mostly played...</div>
+          </div>
+
+          <div class="artist">
+            <div class="artist-pic">
+              <img class="img2" src="assets/10..jpg" alt="" />
+              <div class="play">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+            </div>
+            <div class="role">Your daily update of most viral tracks...</div>
+          </div>
+        </div>
+
+        <div class="footer font-2">
+          <div class="links">
+            <ul>
+              <li class="head">Company</li>
+              <li class="link">About</li>
+              <li class="link">Jobs</li>
+              <li class="link">For The Record</li>
+            </ul>
+          </div>
+          <div class="links">
+            <ul>
+              <li class="head">Communities</li>
+              <li class="link">For Artists</li>
+              <li class="link">Developers</li>
+              <li class="link">Advertising</li>
+              <li class="link">Investors</li>
+              <li class="link">Vendors</li>
+            </ul>
+          </div>
+          <div class="links">
+            <ul>
+              <li class="head">Useful links</li>
+              <li class="link">Support</li>
+              <li class="link">Free Mobile App</li>
+            </ul>
+          </div>
+          <div class="links">
+            <ul>
+              <li class="head">Spotify Plans</li>
+              <li class="link">Premium</li>
+              <li class="link">Individual</li>
+              <li class="link">Premium Duo</li>
+              <li class="link">Premium Family</li>
+              <li class="link">Premium Student</li>
+              <li class="link">Spotify Free</li>
+            </ul>
+          </div>
+          <div class="links">
+            <ul>
+              <li class="social">
+                <img src="assets/insta.svg" alt="" class="icon" />
+                <img src="assets/twitter.svg" alt="" class="icon" />
+                <img src="assets/facebook.svg" alt="" class="icon" />
+              </li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <div class="end font-2"><span>&copy; 2024 Spotify AB</span></div>
+        </div>
+        <div class="songs-playbar">
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="songdetail">
+            <div class="songinfo"></div>
+            <div class="song-buttons">
+              <img
+                id="previous"
+                src="assets/noun-previous-6996369.svg"
+                alt=""
+              />
+              <img id="play" src="assets/play.svg" alt="" />
+              <img id="next" src="assets/noun-next-5308807.svg" alt="" />
+            </div>
+            <div class="song-manage-timenvol">
+              <div class="songtime"></div>
+              <div class="volume">
+                <img src="assets/noun-volume-7138303.svg" alt="" />
+                <div class="range">
+                  <input type="range" name="volume" id="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js
+    "></script>
+  </body>
+</html>

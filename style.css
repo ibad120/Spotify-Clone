@@ -1,0 +1,557 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.left {
+  width: 30vw;
+}
+.right {
+  width: 70vw;
+}
+.logo {
+  margin-bottom: 15px;
+}
+.home ul span:hover {
+  transition: all 0.5s ease;
+  color: white;
+}
+.home ul li {
+  font-size: 16px;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl,
+    CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial,
+    "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+  font-weight: 700;
+  padding-top: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 25px;
+  list-style: none;
+}
+.add {
+  left: 170px;
+  position: relative;
+}
+.library img {
+  width: 25px;
+}
+.library .top {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+.library span:hover {
+  color: white;
+
+  transition: all ease 0.4s;
+}
+.playlist {
+  color: white;
+  gap: 12px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  margin-top: 40px;
+}
+.left button:hover {
+  transform: scale(1.03);
+  transition: all ease 0.4s;
+}
+.playlist .playlist-btn {
+  border-radius: 39px;
+  padding: 11px 24px;
+  background-color: #fff;
+  border-color: #fff;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl,
+    CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial,
+    "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+  font-weight: 900;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 14px;
+}
+.bar {
+  color: white;
+  margin-left: 7px;
+  width: 26.9vw;
+  background-color: #121212;
+  padding: 11px 11px;
+}
+.text1 {
+  padding: 14px 17px;
+  display: flex;
+  gap: 22px;
+}
+.text2 {
+  display: flex;
+  gap: 22px;
+  padding: 14px 17px;
+}
+.text3 {
+  display: flex;
+  gap: 22px;
+  padding: 14px 17px;
+}
+.bar span {
+  font-size: 11px;
+  font-weight: 400;
+  color: #b3b3b3;
+  font-family: "Signika", sans-serif;
+}
+.eng img {
+  width: 22px;
+}
+.eng {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: #1c1c1c;
+  border: 1px solid white;
+  color: white;
+  padding: 11px 11px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 39px;
+  padding: 11px 24px;
+
+  margin-top: 14px;
+}
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #0f0f0f;
+  padding: 11px 27px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 7px;
+}
+.nav ul li:hover {
+  transform: scale(1.03);
+  transition: all ease 0.4s;
+}
+.nav ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 17px;
+}
+.nav ul .log {
+  background-color: #fff;
+  color: black;
+  border-radius: 39px;
+  padding: 15px 29px;
+}
+.content,
+.right {
+  background-color: #121212;
+}
+.heading h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl,
+    CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial,
+    "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+  color: #fff;
+  padding: 28px;
+}
+.heading h2:hover {
+  text-decoration: underline;
+}
+.heading span:hover {
+  text-decoration: underline;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #b3b3b3;
+  padding: 17px;
+}
+.artist:hover {
+  background-color: #1f1f1f;
+}
+.artist {
+  width: 163px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 7px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.artist-pic {
+  position: relative;
+}
+.artist-pic .img1 {
+  width: 158px;
+  height: 158px;
+  border-radius: 99px;
+  object-position: center;
+  object-fit: cover;
+}
+.artist-pic .img2 {
+  width: 158px;
+  height: 158px;
+  border-radius: 10px;
+  object-position: center;
+  object-fit: cover;
+}
+.artist-name,
+.role {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  padding: 4px 12px;
+  font-family: "Signika", sans-serif;
+}
+.role {
+  color: #a8a8a8;
+}
+.grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer {
+  margin: 70px 9px;
+  padding: 16px;
+}
+.head {
+  font-weight: 700;
+  color: #fff !important;
+  cursor: default !important
+  ;
+}
+.links ul li {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  cursor: pointer;
+  list-style: none;
+  color: #b3b3b3;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2px 2px;
+  justify-content: space-around;
+}
+.links ul li img {
+  width: 20px;
+  height: 24px;
+  padding: 11px 12px;
+  border-radius: 99px;
+}
+.icon {
+  background-color: #292929;
+  padding: 0px 10px;
+  cursor: default !important;
+}
+
+.icon:hover {
+  background-color: #909090;
+}
+.link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.line {
+  margin: 32px 20px;
+  height: 2px;
+  background-color: #2a2a2a;
+  width: 477%;
+}
+.end {
+  font-weight: 400;
+  font-size: 18px;
+  color: #b3b3b3;
+  position: relative;
+  top: 86px;
+  right: 162px;
+}
+.play {
+  background-color: #1ed760;
+  border-radius: 99px;
+  position: absolute;
+  right: 9px;
+  top: 119px;
+  width: 44px;
+  display: flex;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(0.9);
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+}
+.play img {
+  width: 35px;
+}
+.songs-playbar {
+  width: 65vw;
+  padding: 12px;
+  position: fixed;
+  background-color: #1ed760;
+  bottom: 0px;
+  border: 6px solid black;
+  border-radius: 59px;
+  margin: 7px;
+}
+.songs-playbar img {
+  width: 30px;
+}
+.song-buttons {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  gap: 12px;
+}
+.songlist ul {
+  padding: 26px 0px;
+}
+.songlist ul li {
+  list-style: none;
+  list-style-type: decimal;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  padding: 13px;
+  border: 1px solid white;
+  margin: 12px 0;
+  border-radius: 5px;
+}
+.songlist ul li img {
+  width: 40px;
+}
+.playnow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playnow span {
+  font-size: 16px;
+  width: 80px;
+}
+.playnow img {
+  width: 33px !important;
+}
+.info {
+  width: 125px;
+}
+.seekbar {
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 11px;
+  width: 94%;
+  background: #fff;
+  margin: 1px 13px;
+}
+.circle {
+  position: relative;
+  transition: left 0.3s;
+  width: 11px;
+  height: 11px;
+  border-radius: 22px;
+  bottom: 5px;
+  background-color: black;
+  left: 0%;
+}
+.songdetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songinfo,
+.songtime {
+  padding: 0px 12px;
+  color: #0f0f0f;
+  width: 144px;
+  font-size: 18px;
+}
+.song-manage-timenvol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.volume {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.song-manage-timenvol img {
+  width: 29px;
+}
+.range input {
+  width: 75%;
+}
+.hamburger {
+  display: none;
+}
+.hamburgerimg {
+  width: 40px;
+  height: 40px;
+  filter: invert(1);
+}
+.clos {
+  width: 40px;
+  height: 40px;
+}
+.close {
+  display: none;
+}
+.end {
+  display: none;
+}
+/*______________________________________________________________________________________ */
+
+/* Media Queries for small devices */
+@media (max-width: 1269px) {
+  .left {
+    position: absolute;
+    left: -200%;
+    transition: all 0.3s;
+    z-index: 1;
+    width: 379px;
+    background-color: #0f0f0f;
+    max-height: fit-content;
+  }
+  .left .bar {
+    width: 89%;
+  }
+  .add {
+    position: absolute;
+    left: 308px;
+  }
+  .line {
+    display: none;
+  }
+  .left .close {
+    position: absolute;
+    top: 85px;
+    right: 43px;
+    display: block;
+  }
+
+  .right {
+    width: 100vw;
+  }
+  .songs-playbar {
+    width: 95vw;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 490px) {
+  .songdetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 11px;
+  }
+  .songs-playbar {
+    width: 87vw;
+  }
+  .seekbar {
+    /* margin: 11px; */
+    width: 74vw;
+  }
+}
+
+/* Responsive adjustments for screens with a width of 879px or less */
+@media (max-width: 879px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
+    gap: 16px; /* Adds space between grid items */
+  }
+}
+
+/* Responsive adjustments for screens with a width of 600px or less */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+  }
+}
+
+/* responsiveness for small devices like below 330px */
+@media (max-width: 390px) {
+  .left {
+    position: absolute;
+    width: 338px;
+  }
+  .songlist ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .add {
+    left: 258px;
+  }
+}
+
+/* Responsive adjustments for screens with a width of 400px or less */
+@media (max-width: 400px) {
+  .grid {
+    grid-template-columns: 1fr; /* Change to 1 column */
+    justify-content: center; /* Center the grid items horizontally */
+    align-items: center; /* Center the grid items vertically */
+  }
+  .artist {
+    margin: 0 auto; /* Center the .artist elements within the grid */
+  }
+}
+/* Responsive adjustments for screens with a width of 491px or less */
+@media (max-width: 491px) {
+  .footer {
+    grid-template-columns: 1fr 1fr; /* Change to 2 columns */
+    gap: 10px 10px; /* Adjust gap for better spacing */
+    justify-content: center; /* Center the grid items horizontally */
+  }
+
+  .footer .links ul {
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center text for better alignment */
+  }
+
+  .footer .links ul li img {
+    margin: 5px; /* Add margin for better spacing around icons */
+  }
+
+  /* Ensure social links are in the same line */
+  .footer .links:last-child ul {
+    display: flex;
+    justify-content: center; /* Center the social links */
+    gap: 10px; /* Add space between icons */
+  }
+  .social {
+    width: 172px;
+    margin-bottom: 86px;
+  }
+
+  .footer .links:last-child ul li {
+    display: flex; /* Flexbox for the list item */
+  }
+}
